@@ -1,8 +1,8 @@
 [submodule "external/mcs-unity"]
 	path = external/mcs-unity
-	url = https://github.com/aldelaro5/mcs-unity
+	url = https://github.com/danilogmoura/mcs-unity
 	branch = master
 [submodule "external/UniverseLib"]
 	path = external/UniverseLib
-	url = https://github.com/aldelaro5/UniverseLib
+	url = https://github.com/danilogmoura/UniverseLib
 	branch = main
