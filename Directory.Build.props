@@ -91,8 +91,6 @@
     <ItemGroup Condition="$(ProjectName.Contains('IL2CPP'))">
         <PackageReference Include="Il2CppInterop.Common" Version="1.4.6-ci.618" />
         <PackageReference Include="Il2CppInterop.Runtime" Version="1.4.6-ci.618" />
-        <ProjectReference Condition="!$(ProjectName.Contains('MelonLoader'))"
-                          Include="$(SolutionDir)\external\UniverseLib\UniverseLib.IL2CPP\UniverseLib.IL2CPP.csproj" />
         <ProjectReference Condition="$(ProjectName.Contains('MelonLoader'))"
                           Include="$(SolutionDir)\external\UniverseLib\UniverseLib.MelonLoader.IL2CPP\UniverseLib.MelonLoader.IL2CPP.csproj" />
         <Reference Include="Il2Cppmscorlib">
